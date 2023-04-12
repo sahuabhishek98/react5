@@ -1,0 +1,41 @@
+.Form-con{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    margin: 4%;
+    background: none;
+    font-size: 18px;
+}
+input:hover{
+    background-color: rgba(240, 255, 255, 0.945);
+}
+.btn-add-std{
+    color: rgb(5, 5, 84);
+    height: 40px;
+    width: 200px;
+    font-size:20px ;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 5rem;
+    top: 30rem;
+}
+.btn-cancel-std{
+    color: rgb(5, 5, 84);
+    height: 40px;
+    width: 200px;
+    font-size:20px ;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 20rem;
+    top: 30rem;
+}
